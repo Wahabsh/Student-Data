@@ -74,5 +74,5 @@ const getStudents = async () => {
     throw error;
   }
 };
-
+export { app };
 export { auth, db, setUpRecaptcha, sendOTP, addStudent, getStudents };

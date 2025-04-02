@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { sendOTP } from "../firebase";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 
-function PhoneLogin() {
+function phonelogin() {
   const [phone, setPhone] = useState("");
   const [otp, setOtp] = useState("");
   const [confirmation, setConfirmation] = useState(null);
