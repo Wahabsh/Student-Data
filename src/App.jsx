@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import phonelogin from "./pages/phonelogin";
+import PhoneLogin from "./pages/PhoneLogin";
 import StudentForm from "./pages/StudentForm";
 import StudentList from "./pages/StudentList";
 import StudentOptions from "./pages/StudentOptions";
